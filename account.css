@@ -1,0 +1,102 @@
+.cola img{
+
+    padding-left: 100px;
+  
+   
+    max-width: 790px;
+    max-height: 900px;
+
+}
+.cola{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.account{
+    
+    padding: 50px 0;
+    background: radial-gradient(#fff,#ffd6d6);
+}
+
+.form{
+    background: #fff;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0  0 20px 0  rgba(0,0,0, 0.1);
+    overflow: hidden;
+
+}
+.rowa{
+    display: flex;
+    flex-wrap: wrap;
+}
+.form span{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 40px;
+    display: inline;
+    cursor: pointer;
+
+    /* border-bottom:2px solid #d88585 ;
+    width: 10px; */
+}
+.form-btn{
+    display: inline-block;
+}
+.form form{
+    /* margin-top: -50px; */
+    /* padding-top: 100px; */
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+    transition: transform 1s;
+}
+form input{
+    width: 100%;
+    height: 30px;
+   margin: 10px 0;
+   padding: 0 10px;
+   border: 1px solid #ccc;
+}
+form .btn1{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+
+}
+form .btn1:focus{
+    outline: none;
+}
+#LoginForm{
+    left:-300px;
+}
+#RegForm{
+    left: 0;
+}
+form a{
+    font-size: 15px;
+    color: #ccc;
+}
+#indicator{
+    width: 100px;
+    border: none;
+    background: #ff523b;
+    height: 3px;
+    padding-left: 100px;
+  
+    /* position: relative; */
+    margin-top: 8px;
+    margin-left: 160px;
+   /* padding-top: 100px; */
+    /* transform: translateX(160px); */
+    /* transform: translateY(-30px); */
+    transition: transform 1s;
+
+
+}

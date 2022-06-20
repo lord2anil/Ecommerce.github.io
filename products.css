@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.manup{
+    display: flex;
+    margin-right: 20px;
+  /* flex-direction: row-reverse; */
+}
+
+.manup ul{
+    display: flex;
+
+}
+.manup ul li{
+    font-size: 18px;
+
+    display: flex;
+    padding: 20px;
+
+    list-style-type: none;
+
+
+}
+.navbarp .manup{
+    float: right;
+}
+.navbarp{
+    /* float: right; */
+    /* display: flex;
+    flex-direction: row-reverse; */
+
+    background-color: #3d35338a;
+    /* position: fixed; */
+    width: 100%;
+
+
+   
+    /* flex-flow: row-reverse; */
+    align-items: center;
+
+}
+.cartp{
+margin-top: 15px;
+
+}
+.logop img{
+   
+    margin: 10px;
+}
+
+.logop{
+    
+display: inline-flex;
+
+
+}
+.headerp{
+
+    /* position: fixed; */
+    display: inline;
+}
+.prop{
+  display: inline;
+}
+.products{
+    margin-top: 100px ;
+}
+
+.select{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto 5px;
+
+}
+.select h3{
+    font-size: 20px;
+
+    margin-left: 200px;
+    color: rgb(67, 64, 57);
+}
+.opt{
+    margin-right: 200px;
+}
+#opt1{
+    
+    font-size: 15px;
+    color: rgb(28, 50, 50);
+}
+select{
+    border: 3px solid #6b5f5e;
+    border-radius: 10px;
+    padding: 5px;
+}
+select:focus{
+    outline: none;
+}
+
+.page-btn{
+    /* position: absolute; */
+    
+    margin-left: 166px;
+    margin-bottom: 20px;
+    color: cadetblue;
+   
+    
+
+}
+.page-btn span{
+    display: inline-block;
+    font-size: 20px;
+   border: 2px solid #ff523b;
+   text-align: center;
+   height: 40px;
+   width: 40px;
+   line-height:40px;
+   cursor: pointer;
+   border-radius: 3px;
+
+
+}
+.page-btn span:hover{
+    background: #ff523b;
+    color: #fff;
+}
+
+
